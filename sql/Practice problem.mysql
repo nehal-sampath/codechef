@@ -1,0 +1,3 @@
+select * from flights
+where destination like '%o'
+and origin like 'M%';
