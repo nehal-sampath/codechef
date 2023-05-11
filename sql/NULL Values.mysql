@@ -1,0 +1,7 @@
+/* Write a query which meets the following conditions
+- Passenger_id is blank or null
+- Order by name
+*/
+select * from Flights
+where passenger_id IS NULL
+ORDER BY passenger_name;
