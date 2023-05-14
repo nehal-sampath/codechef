@@ -1,0 +1,17 @@
+/*Write 3 separate queries to output the entries for the following
+- Count the number of employees in the department 'Sales'.
+- Maximum Hourly pay for the department 'Operations'.
+- Minimum Hourly pay for the department 'Operations'.
+
+Output the counts on separate lines */
+SELECT count(*)
+FROM employee
+where Department='Sales';
+
+SELECT MAX(Hourly_Pay)
+FROM employee
+where Department='Operations';
+
+SELECT MIN(Hourly_Pay)
+FROM employee
+where Department='Operations';
