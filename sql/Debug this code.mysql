@@ -1,0 +1,7 @@
+/* Debug the below query */
+
+SELECT Department, 
+   Avg(Age)
+FROM employee
+GROUP BY Department
+HAVING Count(Department) > 3;
